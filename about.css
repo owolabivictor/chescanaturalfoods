@@ -1,0 +1,405 @@
+.about-hero{
+    position: relative;
+    min-height: 100vh;
+    background-image: url("media/about-hero.png");
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.about-hero-overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.about-hero-container{
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    max-width: 850px;
+    padding: 250px 0;
+}
+
+.about-hero h1{
+    margin-bottom: 10px;
+}
+
+.about-hero p{
+    font-size: clamp(18px, 4vw, 23px);
+    color: #e0e0e0;
+}
+
+
+/* =========================================
+   GENERAL
+========================================= */
+
+.about-label{
+    display: inline-block;
+    color: #C9A227;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+/* =========================================
+   ABOUT INTRO
+========================================= */
+
+.about-intro{
+    padding: 90px 0;
+    background: #fafafa;
+}
+
+.about-intro-container{
+    width: 86%;
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.about-intro-image{
+    border-radius: 30px;
+    overflow: hidden;
+    max-height: 550px;
+}
+
+.about-intro-image img{
+    width: 100%;
+}
+
+.about-intro-text h2{
+    color: rgb(4, 116, 60);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.about-intro-text h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    max-width: 150px;
+    height: 2px;
+    background: #D4AF37;
+    border-radius: 2px;
+}
+
+.about-intro-text p{
+    margin-bottom: 15px;
+}
+
+
+/* =========================================
+   ABOUT COMMITMENT
+========================================= */
+.about-commitment-container {
+    width: 86%;
+    margin: auto;
+    max-width: 1300px;
+}
+
+.about-section-heading{
+    margin-bottom: 60px;
+}
+
+.about-section-heading h2{
+    color: rgb(4, 116, 60);
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.about-section-heading h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    max-width: 150px;
+    height: 2px;
+    border-radius: 2px;
+    background: #D4AF37;
+}
+
+.about-section-heading p {
+    max-width: 750px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-commitment{
+    padding: 100px 0;
+    background: white;
+}
+
+.commitment-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.commitment-card{
+    padding: 35px 25px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+    border-left: 3px solid #C9A227;
+    box-shadow:0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.commitment-icon{
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: rgba(4, 116, 60, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.commitment-icon i{
+    color: rgb(4, 116, 60);
+    font-size: 25px;
+}
+
+.commitment-card h3{
+    margin-bottom: 12px;
+}
+
+
+/* =========================================
+   APPROACH
+========================================= */
+
+.about-approach{
+    padding: 90px 0;
+    background: #f7f7f7;
+}
+
+.about-approach-container{
+    width: 86%;
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.about-approach-text h2{
+    color: rgb(4, 116, 60);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.about-approach-text h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    max-width: 150px;
+    height: 2px;
+    background: #D4AF37;
+    border-radius: 2px;
+}
+
+.about-approach-text p{
+    margin-bottom: 15px;
+}
+
+.about-approach-image{
+    border-radius: 30px;
+    overflow: hidden;
+    max-height: 550px;
+}
+
+.about-approach-image img{
+    width: 100%;
+}
+
+
+/* =========================================
+   WHY CHESCA
+========================================= */
+
+.why-chesca{
+    padding: 90px 0;
+    background: white;
+}
+
+.why-chesca-container {
+    width: 86%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.why-chesca-grid{
+    max-width: 1050px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.why-card{
+    text-align: center;
+    padding: 35px 25px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    border-top: 3px solid rgb(4, 116, 60);
+}
+
+.why-card i{
+    font-size: 30px;
+    color: #C9A227;
+    margin-bottom: 20px;
+}
+
+.why-card h3{
+    color: rgb(4, 116, 60);
+    margin-bottom: 20px;
+}
+
+
+/* =========================================
+   CTA
+========================================= */
+
+.about-cta{
+    position: relative;
+    padding: 110px 0;
+    background-image: url("media/cta-bg.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.about-cta-overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.about-cta-container{
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-cta h2{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.about-cta h2::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    max-width: 150px;
+    height: 2px;
+    border-radius: 2px;
+    background: #D4AF37;
+}
+
+.about-cta p{
+    color: #e0e0e0;
+    margin-bottom: 35px;
+}
+
+.about-cta-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.about-secondary-btn{
+    text-decoration: none;
+    padding: 11px 20px;
+    color: white;
+    border: 1px solid #C9A227;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.about-secondary-btn:hover {
+    background: #C9A227;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+@media(max-width: 800px){
+    .about-intro-container,
+    .about-approach-container{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about-intro-image{
+        order: 2; /* Change the direction of grid */
+    }
+
+    .about-intro-text{
+        order: 1; /* Change the direction of grid */
+    }
+
+}
+
+@media(max-width: 768px){
+    .about-intro,
+    .about-commitment,
+    .about-approach,
+    .why-chesca{
+        padding: 60px 0;
+    }
+
+    .about-intro-container,
+    .about-commitment-container,
+    .about-approach-container,
+    .why-chesca-container{
+        width: 90%;
+    }
+    
+    .about-section-heading{
+        margin-bottom: 40px;
+    }
+
+    .about-section-heading p {
+        text-align: start;
+    }
+
+    .about-cta{
+        padding: 90px 0;
+    }
+
+    .about-secondary-btn{
+        padding: 9px 18px;
+    }
+
+}
