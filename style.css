@@ -420,7 +420,28 @@ nav {
 }
 
 .featured-description p {
-    margin-bottom: 35px;
+    margin-bottom: 25px;
+}
+
+.product-sizes {
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.product-sizes summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(4, 116, 60);
+}
+
+.product-sizes ul {
+    margin-top: 10px;
+    padding-left: 20px;
+    color: #3b3b3b;
+}
+
+.product-sizes li {
+    margin-bottom: 5px;
 }
 
 .featured-product-btn {
