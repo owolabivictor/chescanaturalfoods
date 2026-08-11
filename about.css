@@ -36,19 +36,6 @@
 
 
 /* =========================================
-   GENERAL
-========================================= */
-
-.about-label{
-    display: inline-block;
-    color: #C9A227;
-    font-size: 15px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    margin-bottom: 12px;
-}
-
-/* =========================================
    ABOUT INTRO
 ========================================= */
 
@@ -153,7 +140,7 @@
 }
 
 .commitment-card{
-    padding: 35px 25px;
+    padding: 25px 20px;
     background: #fff;
     border-radius: 15px;
     text-align: center;
