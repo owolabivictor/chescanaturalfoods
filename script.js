@@ -13,7 +13,7 @@ window.addEventListener("load", () => {
   // Start fading out
   setTimeout(() => {
     loader.style.animation = "fade-out 1s ease forwards";
-  }, 1800);
+  }, 1700);
 
   // Completely remove loader
   setTimeout(() => {
