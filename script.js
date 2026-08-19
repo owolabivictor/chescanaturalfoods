@@ -12,13 +12,13 @@ window.addEventListener("load", () => {
 
   // Start fading out
   setTimeout(() => {
-    loader.style.animation = "fade-out 0.8s ease forwards";
-  }, 1600);
+    loader.style.animation = "fade-out 1s ease forwards";
+  }, 1800);
 
   // Completely remove loader
   setTimeout(() => {
     loader.style.display = "none";
-  }, 1800);
+  }, 2000);
 });
 
 // Hamburger Menu JS
