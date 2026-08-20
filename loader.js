@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     spinner.style.display = "none";
     chescaLoader.style.display = "block";
-  }, 700);
+  }, 500);
 
   // Start fading out
   setTimeout(() => {
@@ -18,5 +18,5 @@ window.addEventListener("load", () => {
   // Completely remove loader
   setTimeout(() => {
     loader.style.display = "none";
-  }, 2000);
+  }, 2700);
 });
