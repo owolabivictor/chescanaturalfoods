@@ -1,0 +1,130 @@
+/* Products page header strip */
+.products-hero {
+  background: rgb(4, 116, 60);
+  padding: 160px 0 60px;
+  text-align: center;
+  color: white;
+}
+
+.products-hero-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.products-hero h1 {
+  margin-bottom: 15px;
+}
+
+.products-hero p {
+  color: #e0e0e0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Product catalog */
+.product-catalog {
+  display: flex;
+  justify-content: center;
+  padding: 70px 0;
+}
+
+.product-catalog-container {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.product-card {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  background: white;
+  border-radius: 20px;
+  padding: 35px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.06);
+}
+
+.product-card.reverse {
+  flex-direction: row-reverse;
+}
+
+.product-card-image {
+  flex: 1;
+  max-width: 400px;
+}
+
+.product-card-image img {
+  width: 100%;
+  border-radius: 15px;
+  filter: drop-shadow(0 5px 3px rgba(0, 0, 0, 0.15));
+}
+
+.product-card-info {
+  flex: 1;
+}
+
+.product-card-info h3 {
+  font-weight: bold;
+  font-size: 22px;
+  color: #c9a227;
+  margin-bottom: 15px;
+}
+
+.h3-inline {
+  display: inline-block;
+}
+
+.product-card-info p {
+  margin-bottom: 20px;
+}
+
+/* Size picker — the interactive bit */
+.size-picker {
+  margin-bottom: 25px;
+}
+.size-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.size-btn {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 1px solid rgb(4, 116, 60);
+  background: white;
+  color: #123524;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.active {
+  background-color: rgb(4, 116, 60);
+  color: white;
+}
+
+.quantity-label {
+  font-size: 13px;
+  color: #636363;
+  margin-top: 6px;
+}
+
+@media (max-width: 768px) {
+  .product-card,
+  .product-card.reverse {
+    flex-direction: column;
+  }
+
+  .product-card {
+    padding: 20px;
+  }
+
+  .product-card-image {
+    max-width: 100%;
+  }
+}

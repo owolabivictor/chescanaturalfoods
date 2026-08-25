@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Products - CHESCA Natural Foods Limited</title>
-
-    <link rel="stylesheet" href="construction.css" />
+    <title>Our Products | CHESCA Natural Foods Limited</title>
+    <link rel="stylesheet" href="style.css" />
 
     <!--Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,21 +19,269 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
+    <link rel="stylesheet" href="products.css" />
   </head>
-  <body>
-    <section class="construction">
-      <div class="construction-card">
-        <i class="fa-solid fa-seedling"></i>
 
-        <h1>We're Preparing Something Fresh</h1>
+  <body id="products">
+    <header>
+      <nav>
+        <div class="nav-container">
+          <a href="index.html" class="logo">
+            <img src="media/CHESCA NATURAL FOODS logo.png" alt="logo" />
+          </a>
 
-        <p>
-          Our website is currently under construction as we work to bring you a
-          better online experience. We look forward to welcoming you soon.
-        </p>
+          <div class="nav-list">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About Us</a>
+            <a href="#products" class="nav-link">Products</a>
+            <a href="testimonials.html" class="nav-link">Testimonials</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+          </div>
 
-        <a href="index.html">Back to Home</a>
+          <div class="nav-cta">
+            <a href="products.html">Products</a>
+          </div>
+
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+
+      <section class="products-hero">
+        <div class="products-hero-container reveal fade-in">
+          <h1>Our Products</h1>
+          <p>
+            Premium, natural, and hygienically processed — available in 500g,
+            750g, 1kg, 1.5kg, and custom bulk sizes.
+          </p>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="product-catalog">
+        <div class="product-catalog-container">
+          <!-- Nutrisoya — flagship -->
+          <div class="product-card reveal fade-in">
+            <div class="product-card-image">
+              <img
+                src="media/chesca nutrisoya powdered milk.png"
+                alt="Nutrisoya Powdered Milk"
+              />
+            </div>
+            <div class="product-card-info">
+              <h3 class="h3-inline">Nutrisoya Powdered Milk</h3>
+              <p>
+                A premium plant-based powdered soy milk made from carefully
+                selected soybeans. Rich in plant protein and essential nutrients
+                — a healthy choice for children, adults, and the entire family.
+              </p>
+
+              <div class="size-picker">
+                <div class="size-buttons">
+                  <button class="size-btn active">500g</button>
+                  <button class="size-btn">750g</button>
+                  <button class="size-btn">1kg</button>
+                  <button class="size-btn">1.5kg</button>
+                  <button class="size-btn">Custom Order</button>
+                </div>
+                <p class="quantity-label">Selected: 500g</p>
+              </div>
+
+              <a href="" target="_blank" class="button">Order Now</a>
+            </div>
+          </div>
+
+          <!-- Nutrigold Tom Brown -->
+          <div class="product-card reverse reveal fade-in">
+            <div class="product-card-image">
+              <img
+                src="media/chesca nutrigold tom brown.png"
+                alt="Nutrigold Tom Brown"
+              />
+            </div>
+            <div class="product-card-info">
+              <h3>Nutrigold Tom Brown</h3>
+              <p>
+                A wholesome blend of carefully selected cereals and natural
+                ingredients, specially formulated for balanced nutrition — for
+                babies, children, adults, and convalescents.
+              </p>
+
+              <div class="size-picker">
+                <div class="size-buttons">
+                  <button class="size-btn active">500g</button>
+                  <button class="size-btn">750g</button>
+                  <button class="size-btn">1kg</button>
+                  <button class="size-btn">1.5kg</button>
+                  <button class="size-btn">Custom Order</button>
+                </div>
+                <p class="quantity-label">Selected: 500g</p>
+              </div>
+
+              <a href="" target="_blank" class="button">Order Now</a>
+            </div>
+          </div>
+
+          <!-- Premium Powdered Pap -->
+          <div class="product-card reveal fade-in">
+            <div class="product-card-image">
+              <img
+                src="media/chesca premium powdered pap.png"
+                alt="Premium Powdered Pap"
+              />
+            </div>
+            <div class="product-card-info">
+              <h3>Premium Powdered Pap</h3>
+              <p>
+                A finely processed powdered pap made from quality grains to
+                provide a smooth, nutritious, and convenient meal for babies and
+                adults.
+              </p>
+
+              <div class="size-picker">
+                <div class="size-buttons">
+                  <button class="size-btn active">500g</button>
+                  <button class="size-btn">750g</button>
+                  <button class="size-btn">1kg</button>
+                  <button class="size-btn">1.5kg</button>
+                  <button class="size-btn">Custom Order</button>
+                </div>
+                <p class="quantity-label">Selected: 500g</p>
+              </div>
+
+              <a href="" target="_blank" class="button">Order Now</a>
+            </div>
+          </div>
+
+          <!-- Premium Beans Flour -->
+          <div class="product-card reverse reveal fade-in">
+            <div class="product-card-image">
+              <img
+                src="media/chesca premium beans flour.png"
+                alt="Premium Beans Flour"
+              />
+            </div>
+            <div class="product-card-info">
+              <h3>Premium Beans Flour</h3>
+              <p>
+                Made from carefully selected beans, offering a convenient and
+                nutritious way to prepare bean-based meals while retaining the
+                natural goodness of beans.
+              </p>
+
+              <div class="size-picker">
+                <div class="size-buttons">
+                  <button class="size-btn active">500g</button>
+                  <button class="size-btn">750g</button>
+                  <button class="size-btn">1kg</button>
+                  <button class="size-btn">1.5kg</button>
+                  <button class="size-btn">Custom Order</button>
+                </div>
+                <p class="quantity-label">Selected: 500g</p>
+              </div>
+
+              <a href="" target="_blank" class="button">Order Now</a>
+            </div>
+          </div>
+
+          <!-- Superior Smooth Swallow -->
+          <div class="product-card reveal fade-in">
+            <div class="product-card-image">
+              <img
+                src="media/chesca superior smooth swallow.png"
+                alt="Superior Smooth Swallow"
+              />
+            </div>
+            <div class="product-card-info">
+              <h3>Superior Smooth Swallow</h3>
+              <p>
+                Made from premium-quality ingredients to deliver a smooth,
+                satisfying, and nutritious swallow that complements a variety of
+                soups.
+              </p>
+
+              <div class="size-picker">
+                <div class="size-buttons">
+                  <button class="size-btn active">500g</button>
+                  <button class="size-btn">750g</button>
+                  <button class="size-btn">1kg</button>
+                  <button class="size-btn">1.5kg</button>
+                  <button class="size-btn">Custom Order</button>
+                </div>
+                <p class="quantity-label">Selected: 500g</p>
+              </div>
+
+              <a href="" target="_blank" class="button">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-about">
+          <img src="media/CHESCA NATURAL FOODS logo.png" alt="logo" />
+          <p class="footer-motto">Nourishing Lives, Naturally.</p>
+          <p class="footer-description">
+            CHESCA Natural Foods Limited is committed to producing premium,
+            nutritious, and hygienically processed natural food products for
+            healthier families, businesses, and communities.
+          </p>
+          <div class="footer-socials">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="#products">Products</a>
+          <a href="testimonials.html">Testimonials</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="footer-products">
+          <h3>Our Products</h3>
+          <p><i class="fa-solid fa-chevron-right"></i> Premium Powdered Pap</p>
+          <p><i class="fa-solid fa-chevron-right"></i> Premium Beans Flour</p>
+          <p>
+            <i class="fa-solid fa-chevron-right"></i> Superior Smooth Swallow
+          </p>
+          <p><i class="fa-solid fa-chevron-right"></i> Nutrisoya</p>
+          <p><i class="fa-solid fa-chevron-right"></i> Nutrigold Tom Brown</p>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Contact Us</h3>
+          <p><i class="fa-solid fa-location-dot"></i> Lagos, Nigeria</p>
+          <p><i class="fa-solid fa-phone"></i> +234 803 711 0495</p>
+          <p>
+            <i class="fa-solid fa-envelope"></i> info@chescanaturalfoods.com
+          </p>
+          <p><i class="fa-solid fa-clock"></i> Mon – Fri | 8:00 AM – 5:00 PM</p>
+        </div>
       </div>
-    </section>
+
+      <div class="footer-bottom">
+        <p>© 2026 CHESCA Natural Foods Limited. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="reveal.js"></script>
+    <script src="products.js"></script>
   </body>
 </html>
